@@ -1,6 +1,6 @@
 # Road Accident Risk Analysis System Using GIS and Artificial Intelligence
 
-> แนวคิดของโครงการ Road Accident Risk Analysis System Using GIS and Artificial Intelligence เป็นระบบวิเคราะห์ความเสี่ยงการเกิดอุบัติเหตุบนท้องถนน โดยใช้ Geographic Information System (GIS) ร่วมกับ Artificial Intelligence (AI) เพื่อรวบรวม วิเคราะห์ และคาดการณ์ความเสี่ยงของการเกิดอุบัติเหตุในพื้นที่ต่าง ๆ
+> ไอเดีย: Road Accident Risk Analysis System Using GIS and Artificial Intelligence เป็นระบบวิเคราะห์ความเสี่ยงการเกิดอุบัติเหตุบนท้องถนน โดยใช้ Geographic Information System (GIS) ร่วมกับ Artificial Intelligence (AI) เพื่อรวบรวม วิเคราะห์ และคาดการณ์ความเสี่ยงของการเกิดอุบัติเหตุในพื้นที่ต่าง ๆ
 
 ระบบจะจัดเก็บข้อมูลการเกิดอุบัติเหตุในรูปแบบข้อมูลเชิงพื้นที่ (Spatial Data) และข้อมูลเชิงเวลา (Temporal Data) พร้อมปัจจัยแวดล้อมที่เกี่ยวข้อง เช่น
 - ตำแหน่งที่เกิดเหตุ (Latitude, Longitude)
