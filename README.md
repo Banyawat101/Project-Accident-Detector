@@ -18,14 +18,23 @@
 - https://link.springer.com/article/10.1007/s43762-025-00221-w
 - https://onlinelibrary.wiley.com/doi/10.1155/2022/7239464
 
-| **Frontend**         | React.js                  | พัฒนาหน้าเว็บไซต์สำหรับแสดงแผนที่ จุดเกิดอุบัติเหตุ และแดชบอร์ด
-| **Map Library**      | Leaflet.js                | แสดงแผนที่แบบ Interactive รองรับการปักหมุด (Marker), Heatmap และการแสดงพื้นที่เสี่ยง
-| **Map Data**         | OpenStreetMap             | ให้ข้อมูลแผนที่ ถนน และตำแหน่งสถานที่ต่าง ๆ โดยไม่เสียค่าใช้จ่าย
-| **Backend**          | FastAPI (Python)          | พัฒนา REST API สำหรับรับ-ส่งข้อมูล เรียกใช้โมเดล AI และเชื่อมต่อฐานข้อมูล
-| **Database**         | PostgreSQL + PostGIS      | จัดเก็บข้อมูลอุบัติเหตุและข้อมูลเชิงพื้นที่ (Spatial Data) พร้อมรองรับการค้นหาและวิเคราะห์ข้อมูล GIS
-| **Machine Learning** | Scikit-learn หรือ XGBoost  | วิเคราะห์ข้อมูลอุบัติเหตุและคาดการณ์ระดับความเสี่ยงของแต่ละพื้นที่
-| **Weather API**      | OpenWeather API           | ดึงข้อมูลสภาพอากาศ เช่น ฝนตก อุณหภูมิ ความชื้น เพื่อใช้เป็นปัจจัยในการวิเคราะห์
-| **Visualization**    | Chart.js                  | แสดงสถิติและผลการวิเคราะห์ในรูปแบบกราฟ เช่น จำนวนอุบัติเหตุรายเดือนหรือความรุนแรงของอุบัติเหตุ
+## Technology Stack
+### Frontend
+- **React.js** – พัฒนาเว็บไซต์และส่วนติดต่อผู้ใช้งาน (UI)
+### Map Library
+- **Leaflet.js** – แสดงแผนที่แบบ Interactive รองรับ Marker และ Heatmap
+### Map Data
+- **OpenStreetMap** – ให้ข้อมูลแผนที่และถนนสำหรับแสดงผล
+### Backend
+- **FastAPI (Python)** – พัฒนา REST API เชื่อมต่อฐานข้อมูลและโมเดล AI
+### Database
+- **PostgreSQL + PostGIS** – จัดเก็บข้อมูลอุบัติเหตุและข้อมูลเชิงพื้นที่ (GIS)
+### Machine Learning
+- **Scikit-learn / XGBoost** – วิเคราะห์ข้อมูลและคาดการณ์ความเสี่ยงของอุบัติเหตุ
+### Weather API
+- **OpenWeather API** – ดึงข้อมูลสภาพอากาศเพื่อใช้ในการวิเคราะห์
+### Visualization
+- **Chart.js** – แสดงผลสถิติในรูปแบบกราฟและแดชบอร์ด
 
 # ขั้นตอนการทำงานของระบบ
 1. ผู้ใช้งานเข้าสู่เว็บไซต์และเลือกพื้นที่ที่ต้องการวิเคราะห์
